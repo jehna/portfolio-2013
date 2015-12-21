@@ -12,7 +12,7 @@ This portfolio site has two distinct areas, which you find below:
 
 ### 1. Frontend programmer's portfolio
 
-**Tag:** `[frontend-programmer-portfolio][frontend-programmer-portfolio]`
+**Tag:** [`frontend-programmer-portfolio`][frontend-programmer-portfolio]
 
 This is the "main" portfolio, which also included my printable pdf CV.
 
@@ -25,7 +25,7 @@ http://jehna.github.io/portfolio-2013/
 
 ### 2. Game programmer portfolio
 
-**Tag:** `[gaming-portfolio][gaming-portfolio]`
+**Tag:** [`gaming-portfolio`][gaming-portfolio]
 
 Portfolio showing my success at game development.
 
