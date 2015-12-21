@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<!--
+
+
+  ________   _____    _____    _____    _____      _____       __    __     ____   ________   ____    
+ (__    __) / ___/   / ____\  / ____\  / ___/     (_   _)     |  |  |  |   / __ \ (__    __) / __ \   
+    |  |   | (__    ( (___   ( (___   | (__         | |       |  |  |  |  / /  \ \   |  |   / /  \ \  
+    |  |   |   __)    \___ \   \___ \ |   __)       | |       |  |  |  | | |    | |  |  |  | |    | |  
+___ |  |   | (           ) )      ) ) | (           | |   __  |  |  |  | | |    | |  |  |  | |    | | 
+| |_/  /    \ \___   ___/ /   ___/ /   \ \___     __| |___) ) \  \__/  /  \ \__/ /   |  |   \ \__/ /  
+\_____/      \____\ /____/   /____/     \____\    \________/   \______/    \____/    |__|    \____/   
+                                                                                                           
+                                                                                                                                                                                                                                                
+============================================================================================================
+
+ _____ _             ____                        ____                 _                       
+|_   _| |__   ___   / ___| __ _ _ __ ___   ___  |  _ \  _____   _____| | ___  _ __   ___ _ __ 
+  | | | '_ \ / _ \ | |  _ / _` | '_ ` _ \ / _ \ | | | |/ _ \ \ / / _ \ |/ _ \| '_ \ / _ \ '__|
+  | | | | | |  __/ | |_| | (_| | | | | | |  __/ | |_| |  __/\ V /  __/ | (_) | |_) |  __/ |   
+  |_| |_| |_|\___|  \____|\__,_|_| |_| |_|\___| |____/ \___| \_/ \___|_|\___/| .__/ \___|_|   
+                                                                             |_|              
+
+============================================================================================================
+
+
+(Yes, there are more comments in the source code.)
+
+
+
+
+-->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Jesse Luoto - The game programmer's portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="http://thejunkland.com/images/naama.jpg" /> <!-- Try sharing me on facebook -->
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap-responsive.css" />
+    <style type="text/css">
+    .jumbotron {
+        text-align: center;
+    }
+    .jumbotron .lead {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container {
+        max-width: 870px;
+        min-height: 100%;
+    }
+    hr {
+        margin: 12% 0;
+    }
+    hr.first {
+        margin: 6% 0;
+    }
+    .coverphoto {
+        margin: 10px 0;
+    }
+    dt .muted {
+        font-weight: normal;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <hr class="first" />
+        <div class="jumbotron">
+            <h1>Game portfolio</h1>
+            <p class="lead">
+                Hi. I'm Jesse Luoto, <i>the game programmer</i>.
+                Here's a <strong>showcase</strong> of my previous work.
+            </p>
+            <img src="images/naama.jpg" alt="Jesse Luoto" class="img-polaroid coverphoto" />
+        </div>
+        <hr id="blackpowder" />
+        <div>
+            <h1>Black Powder</h1>
+            <img src="images/blackpowder_cover.jpg" alt="Blank Powder" class="img-polaroid coverphoto" />
+            <p class="lead">Black Powder is a game available for <strong>iOS devices</strong> as a free ad-funded version and as a single-purchase premium version. The game takes place at the coast of Hamina, letting the player defend his homeland as Powder-Pete.</p>
+            <div class="row">
+                <div class="span3">
+                    <img src="images/blackpowder_thumb.png" alt="Blank Powder enemy AI" class="img-polaroid" />
+                </div>
+                <div class="span6">
+                    <h4>Highlight: Enemy AI</h4>
+                    <p><i>Ship behaviour</i> is a big part of the game; Ships have to be predictable, but smart enough to give a decent challenge to the player.</p>
+                    <p>I implemented a grid-like <strong>ship route system</strong>, that was customizable between different maps. Routes helped ship AI to take shortcuts or detours on their route.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span9">
+                    <dl>
+                        <dt>Role</dt>
+                            <dd>Lead programmer</dd>
+                        <dt>I fully programmed...</dt>
+                            <dd>Enemies, controls, UI, statistics</dd>
+                        <dt>Publisher</dt>
+                            <dd><a href="http://www.aptual.fi/" target="_blank">Aptual Oy</a></dd>
+                        <dt>Technology</dt><dd><a href="http://unity3d.com/" target="_blank"><img src="images/unity3d.png" style="max-height: 30px;" alt="Unity3D" /></a></dd>
+                        <dt>Official site</dt><dd><a href="http://www.blackpowdergame.com/" target="_blank">http://www.blackpowdergame.com/</a>
+                    </dl>
+                </div>
+            </div>      
+        </div>
+        <hr id="roastyrooster" />
+        <div>
+            <h1>Roasty rooster</h1>
+            <img src="images/roasty_cover.jpg" alt="Roasty Rooster" class="img-polaroid coverphoto" />
+            <p class="lead">Roasty Rooster is an upcoming <strong>action game</strong> for iOS, Android and OUYA.</p>
+            <p>The game had it's first prototype at early 2012. <strong>One year later</strong> it got a viral hit, when a video of <a href="http://www.youtube.com/watch?v=crE8v3LWO4I" target="_blank">OUYA running an early dev version of Roasty Rooster</a> got 200k+ views on youtube.</p>
+            <div class="row">
+                <div class="span3">
+                    <img src="images/spritetext_thumb.png" alt="SpriteText plugin" class="img-polaroid" />
+                </div>
+                <div class="span6">
+                    <h4>Highlight: Font system</h4>
+                    <p>Unity doesn't support <i>bitmap fonts</i>, so I needed to implement a system to display pixel-perfect bitmap fonts.</p>
+                    <p>Because I love doing <strong>plugins and editors</strong>, it was natural to do something that other developers could also use. I programmed SpriteText, a plugin that's available for everyone on <a href="http://u3d.as/content/aptual-ltd-/sprite-text-custom-bitmap-fonts/2N4" target="_blank">Asset Store</a>.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span9">
+                    <dl>
+                        <dt>Role</dt>
+                            <dd>Lead programmer</dd>
+                        <dt>I fully programmed...</dt>
+                            <dd>UI, statistics, achievements, code optimization</dd>
+                        <dt>Publisher</dt>
+                            <dd><a href="http://www.aptual.fi/" target="_blank">Aptual Oy</a> <span class="muted">(not yet published)</span></dd>
+                        <dt>Technology</dt>
+                            <dd><a href="http://unity3d.com/" target="_blank"><img src="images/unity3d.png" alt="Unity3D" style="max-height: 30px;" /></a></dd>
+                        <dt>Official site</dt>
+                            <dd><a href="https://www.facebook.com/RoastyRooster" target="_blank">https://www.facebook.com/RoastyRooster</a>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <hr id="saari42" />
+        <div>
+            <h1>Saari 42</h1>
+            <img src="images/saari42_cover.jpg" alt="Saari 42" class="img-polaroid coverphoto" />
+            <p class="lead">Saari 42 is an <strong>educative game</strong> for forthcoming employees. By telling a story it teaches the basics of getting a job of your dreams.</p>
+            <p>The game was done in cooperation with <a href="http://www.ksao.fi/" target="_blank">Kouvola Region Vocational College</a>, as a <strong>final year project</strong> for some of the students.</p>
+            <div class="row">
+                <div class="span3">
+                    <img src="images/saari42_thumb.jpg" alt="Saari 42 pathfinding system" class="img-polaroid" />
+                </div>
+                <div class="span6">
+                    <h4>Highlight: Pathfinding system</h4>
+                    <p>At the time I was making the game, there was no ready-to-use <i>pathfinding systems</i> in Unity.</p>
+                    <p>To originally prevent player from <strong>getting stuck</strong> on some difficult places, I programmed a simple 3D-world pathfinding system that used <i>waypoints</i> to determine the best possible route.</p>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 40px;">
+                <div class="span6">
+                    <h4>Highlight: Storyboard system</h4>
+                    <p>The game included a lot of <strong>dialogue</strong> between characters, so an easy-to-use <i>storyboard engine</i> had to be programmed. The linear story had to be easily debugged and tested at any given point of the story.</p>
+                    <p>This was a <strong>really fun project</strong> to see how a linear story RPG game can be built. I'm definitely looking forward to the next opportunity to build a <i>RPG game</i>.</p>
+                </div>
+                <div class="span3">
+                    <img src="images/saari42_2_thumb.jpg" alt="Saari 42 sotryboard system" class="img-polaroid" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="span9">
+                    <dl>
+                        <dt>Role</dt>
+                            <dd>Lead programmer, mentor for programmer students</dd>
+                        <dt>I fully programmed...</dt>
+                            <dd>Pathfinding, main gameplay, story engine, dialogues, inventory</dd>
+                        <dt>Technology</dt>
+                            <dd><a href="http://unity3d.com/" target="_blank"><img src="images/unity3d.png" alt="Unity3D" style="max-height: 30px;" /></a></dd>
+                        <dt>Play at:</dt>
+                            <dd><a href="http://www.saari42.fi/" target="_blank">http://www.saari42.fi/</a>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <hr id="whimper" />
+        <div>
+            <h1>The Whimper</h1>
+            <img src="images/whimper_cover.jpg" alt="The Whiper" class="img-polaroid coverphoto" />
+            <p class="lead">Game made at Finnish Game Jam 2013. It was built in <strong>48 hours</strong> with a total of five people.</p>
+            <p>We wanted to do a <strong>co-op dungeon escape horror game</strong> that would be easily ported to forthcoming <i>OUYA console</i>. The gameplay wasn't as finished as it could be, but the game succeeded to freak the crap out of me couple of times. <u>Mission successful</u>.</p>
+            <div class="row">
+                <div class="span3">
+                    <img src="images/whimper_thumb.png" class="img-polaroid" alt="The Whimper's procedural map generator" />
+                </div>
+                <div class="span6">
+                    <h4>Highlight: Procedural maps</h4>
+                    <p>My responsibility in the game was to build a <i>random level generator</i>. I did my background search and the result was one of the programs that I'm the most proud of.</p>
+                    <p>The level generator consists from different procedural <strong>"builders"</strong>. E.g. the first builder usually does one big main route for the map, which is followed by multiple sub-route builders. Subsequent builders will generate rooms of different sizes, place the players on the map and finally <i>decorate</i> the map.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span9">
+                    <dl>
+                        <dt>Role</dt>
+                            <dd>Lead programmer</dd>
+                        <dt>I fully programmed...</dt>
+                            <dd>Random map generator, enemy AI</dd>
+                        <dt>Time spent</dt>
+                            <dd>48 hours, @<a href="http://finnishgamejam2013.com/" target="_blank">FGJ 2013</a></dd>
+                        <dt>Technology</dt>
+                            <dd><a href="http://unity3d.com/" target="_blank"><img src="images/unity3d.png" alt="Unity3D" style="max-height: 30px;" /></a></dd>
+                        <dt>Play at:</dt>
+                            <dd><a href="http://thejunkland.com/whimper/" target="_blank">http://thejunkland.com/whimper/</a>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <hr id="putte" />
+        <div>
+            <h1>Putt-e</h1>
+            <p class="lead">Failing is a big part of design process. <i>Fast</i> failing. So <strong>how fast</strong> could I make a game?</p>
+            <div class="row">
+                <div class="span3">
+                    <img src="images/putte_thumb.png" alt="Putt-e" class="img-polaroid" />
+                </div>
+                <div class="span6">
+                    <p>Answer: <strong>In 12 hours</strong>. Putt-e was a personal challenge to make a full game as fast as possible.</p>
+                    <p>The first objective was to do a <i>fully playable game</i> in 6 hours, but i found out the hard way that boolean modifiers are damn hard to implement on 3D objects. So overall 12 hours included everything from designing to trying to total failing to redesigning and actually succeeding.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span4">
+                    <dl>
+                        <dt>Role</dt>
+                            <dd>One-man GameJam game</dd>
+                        <dt>Technology</dt>
+                            <dd><a href="http://unity3d.com/" target="_blank"><img src="images/unity3d.png" alt="Unity3D" style="max-height: 30px;" /></a></dd>
+                        <dt>Play at</dt>
+                            <dd><a href="http://thejunkland.com/putt-e/" target="_blank">http://thejunkland.com/putt-e/</a>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <hr id="uQuery" />
+        <div>
+            <h1>jQuery for Unity - uQuery</h1>
+            <p class="lead">I ported the syntax of <strong>jQuery 1.6</strong> to Unity to help web developes feel more natural to start coding with Unity.</p>
+            <div class="row">
+                <div class="span3">
+                    <img src="images/uquery_thumb.png" alt="uQuery - jQuery for Unity" class="img-polaroid" />
+                </div>
+                <div class="span6">
+                    <h4>Highlight: Code translating</h4>
+                    <p>I really <strong>love Unity</strong> and I relly love jQuery. uQuery allows the usage of many most frequently used jQuery commands in Unity. I started by reading and translating the code <i>line by line</i> and hacked workarounds when ever needed to.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span9">
+                    <dl>
+                        <dt>Type</dt>
+                            <dd>Open-source Github project</dd>
+                        <dt>Role</dt>
+                            <dd>Single-man project</dd>
+                        <dt>Github page</dt>
+                            <dd><a href="https://github.com/jehna/uQuery" target="_blank">https://github.com/jehna/uQuery</a>
+                        <dt>Official support page <span class="muted">(Unity3D forum thread)</span></dt>
+                            <dd><a href="http://forum.unity3d.com/threads/157096" target="_blank">http://forum.unity3d.com/threads/157096</a>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <hr id="other" />
+        <div>
+            <h1>Other playable games <small>(made by me)</small></h1>
+            <div class="row">
+                <div class="span3">
+                    <h3>Legtris</h3>
+                    <img src="images/legtris_thumb.png" alt="Legtris" class="img-polaroid" />
+                    <dl>
+                        <dt>Role</dt>
+                            <dd>One-man GameJam game</dd>
+                        <dt>Technology</dt>
+                            <dd><a href="http://unity3d.com/" target="_blank"><img src="images/unity3d.png" alt="Unity3D" style="max-height: 30px;" /></a></dd>
+                        <dt>Play at</dt>
+                            <dd><a href="http://thejunkland.com/legtris/" target="_blank">http://thejunkland.com/<br class="visible-tablet" />legtris/</a>
+                    </dl>
+                </div>
+                <div class="span3">
+                    <h3>Penetration</h3>
+                    <img src="images/penetration_thumb.png" alt="Penertation game" class="img-polaroid" />
+                    <dl>
+                        <dt>Role</dt>
+                            <dd>One-man GameJam game</dd>
+                        <dt>Technology</dt>
+                            <dd><a href="http://www.createjs.com/" target="_blank"><img src="images/createjs.png" alt="CreateJS" style="max-height: 30px;" /></a>, <img src="images/html5.png" alt="HTML5" style="max-height: 30px;" /></dd>
+                        <dt>Play at</dt><dd><a href="http://thejunkland.com/penetration/" target="_blank">http://thejunkland.com/<br class="visible-tablet" /><!-- AWWYEAH! -->penetration/</a>
+                    </dl>
+                </div>
+                <div class="span3">
+                    <h3>Ski Jumpy</h3>
+                    <img src="images/skijumpy_thumb.jpg" alt="Ski Jumpy" class="img-polaroid" />
+                    <dl>
+                        <dt>Role</dt>
+                            <dd>Lead programmer</dd>
+                        <dt>Publisher</dt>
+                            <dd><a href="http://www.aptual.fi/" target="_blank">Aptual Oy</a></dd>
+                        <dt>Technology</dt>
+                            <dd><a href="http://unity3d.com/" target="_blank"><img src="images/unity3d.png" alt="Unity3D" style="max-height: 30px;" /></a></dd>
+                        <dt>Play at</dt>
+                            <dd><a href="http://www.skijumpy.com/" target="_blank">http://www.skijumpy.com/</a></dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <hr id="contact" />
+        <div>
+            <h1>Contact me <small>(please do)</small></h1>
+            <dl>
+                <dt>Phone</dt>
+                    <dd>+358 40 838 6326</dd>
+                <dt>Email</dt>
+                    <!-- "wtf, n00b! He's email address was plaintext! Even with mailto: link!" .. or was it? -->
+                    <dd><script>eval(unescape('@64@6f@63@75@6d@65@6e@74@2e@77@72@69@74@65@28@27@3c@61@20@68@72@65@66@3d@22@6d@61@69@6c@74@6f@3a@6a@65@73@73@65@2e@6c@75@6f@74@6f@40@67@6d@61@69@6c@2e@63@6f@6d@22@3e@6a@65@73@73@65@2e@6c@75@6f@74@6f@40@67@6d@61@69@6c@2e@63@6f@6d@3c@2f@61@3e@27@29@3b'.replace(/@/g,'%')))</script></dd>
+                <dt>LinkedIn</dt>
+                    <dd><a href="http://fi.linkedin.com/in/jluoto/" target="_blank">http://fi.linkedin.com/in/jluoto/</a></dd>
+            </dl>
+        </div>
+        <hr />
+    </div>
+    
+    <script type="text/javascript">
+    
+      // Yes, I know a thing or two about Google Analytics.
+      // Ever wondered what's the difference between accounts, properties and profiles (= why you have to click thrice before getting to your site's analytics)?
+      // Hire me and I'll tell you.
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-32702642-1']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+    </script>
+</body>
+</html>
